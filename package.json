@@ -1,7 +1,7 @@
 {
   "name": "clone",
   "version": "0.1.0",
-  "homepage": "http://asliddinamir.github.io/react_weather_app/",
+  "homepage": "https://asliddinamir.github.io/react_weather_app/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
