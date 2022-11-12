@@ -26,13 +26,7 @@ export default function Weather() {
     fetch(`${Base_Url}${state}&appid=${api_key}&units=metric`)
       .then((res) => res.json())
       .then((data) => {
-        if (data.name) {
-          console.log(data);
-          setStatetwo(data);
-          setState3(false);
-        } else if (!data.name) {
-          setState3(true);
-        }
+      {data.name ? (setStatetwo(data), setState3(false)) : setState3(true)}
       });
   };
   return (
