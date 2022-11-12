@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 119vh;
+  background-image: url(../public/images/bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+}
+
+
+.title{
+  color: white;
+  font-size: 48px;
+  margin-top: 20px;
+}
+
+.form {
+  width: 100%;
+  text-align: center;
+  margin-top: -10px;
+  position: relative;
+}
+
+.form input{
+  background-color: #ccc;
+  padding: 1rem;
+  color: #222;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.473) 0px 3px 8px;
+  border-radius: 7px;
+  font-family: inherit;
+  font-size: 1rem;
+  width: 30%;
+  padding-left: 5%;
+  padding-right: 3%;
+}
+
+.form input:focus{
+  outline: 1px solid grey;
+}
+.form .btn{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  left: 32%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.form .btn i{
+  color: black;
+  font-size: 1rem;
+}
+
+.weather .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.info .country{
+  font-size: 40px;
+  color: white;
+}
+
+.info .second{
+  font-size: 30px;
+  color: white;
+}
+
+footer {
+  position: absolute;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  background: rgb(38, 79, 99);
+  z-index: 1000;
+}
+
+.name {
+  font-size: .9rem;
+  color: white;
+  font-weight: 300;
+  font-family: inherit;
+}
+
+.name a {
+  color: rgb(76, 196, 60);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+@media(max-width:774px){
+  .title{
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .form input{
+    width: 80%;
+    padding-left: 15%;
+  }
+  .form .btn{
+    left: 6%;
+  }
+}
