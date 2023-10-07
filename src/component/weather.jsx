@@ -71,7 +71,7 @@ export default function Weather() {
       </div>
       <footer>
             <h3 class="name">
-                <a href="https://asliddin.com/">Asliddin Amirov </a>&copy;2022 | All
+                <a href="https://asliddinamirov.netlify.app/">Asliddin Amirov </a>&copy;2023 | All
                 rights reserved
             </h3>
         </footer>
